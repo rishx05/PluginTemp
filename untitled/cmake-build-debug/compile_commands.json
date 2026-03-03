@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/untitled/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od -std:c++20 -MDd -RTC1 -Zi @CMakeFiles\\untitled.dir\\main.cpp.obj.modmap /FoCMakeFiles\\untitled.dir\\main.cpp.obj /FdCMakeFiles\\untitled.dir\\ /FS -c D:\\untitled\\main.cpp",
+  "file": "D:/untitled/main.cpp",
+  "output": "D:/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+}
+]

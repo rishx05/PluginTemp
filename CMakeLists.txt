@@ -1,5 +1,5 @@
 
-cmake_minimum_required(VERSION 4.2.3 FATAL_ERROR)
+cmake_minimum_required(VERSION 4.2.3)
 
 project(AudioPlugin)
 
@@ -38,9 +38,9 @@ cpmaddpackage(
 )
 
 
-# Treat all Warnings as Errors
+# Sensible warning levels (JUCE-friendly)
 if (MSVC)
-    add_compile_options(/Wall /WX)
+    add_compile_options(/W4)
 else()
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
